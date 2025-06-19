@@ -1,0 +1,44 @@
+TYPE OF DATA TYPE IN JAVA.
+
+1. PRIMITIVE  
+
+BYTE=>1BYTE 8bit
+SHORT
+CHAR  =>2byte
+BOOLEAN =>1byte
+INT => 4byte
+LONG => 8 byte
+FLOAT  => 4byte
+DOUBLE  =>8 byte
+
+
+
+
+
+2. NON-PRIMITIVE
+
+STRING 
+ARRAY
+CLASS
+OBJECT
+INTERFACE
+
+
+
+
+
+class Main {
+    public static void main(String[] args) {
+       //variable
+       int a=10;
+       int b=25;
+       
+       int sum=a+b;
+       int diff=b-a;
+       int mul=a*b;
+       
+       System.out.Println(sum);
+       System.out.Println(diff);
+       System.out.Println(mul);
+    }
+}

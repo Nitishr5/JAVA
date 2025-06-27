@@ -1,0 +1,17 @@
+#include <iostream>
+using  namespace std;
+int main() {
+    // Write C++ code here
+    int t1=0,t2=1,next=t1+t2;
+    cout<<t1<<" "<<t2<<" ";
+    for(int i=2;i<10;i++)
+    {
+        cout<<next<<" ";
+        t1=t2;
+        t2=next;
+        next=t1+t2;
+    }
+} 
+
+
+THIS TAKE INPUT FROM USER AND SUM AND PRINT ANSWER====>>

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+         Scanner Sc=new Scanner(System.in);
+        System.out.println("Enter radius of circle");
+        double radius=Sc.nextDouble();
+        
+        double diameter=2*radius;
+        double area=2*3.14*radius;
+        System.out.println(diameter);
+        System.out.println(area);
+    }
+}
+
+
+
+Input : 2
+Output : Circumference = 12.566
+
+Input : 8
+Output : Circumference = 50.264

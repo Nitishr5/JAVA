@@ -1,0 +1,13 @@
+**************************************    BASIC NORMAL THING   *************************************************************
+1. Program :=> it is a set of instruction.
+2. Programming Lang :=> it is a medium through whih we can write a program.
+3. Type of Prog Lang :=>  
+    a. High level Programming Lang :- Human Readable
+    b. Low Level [Machine Level Lang] :- Binary Formate.
+
+4. A  Code is  Written by devloper is called -> Source Code = High level language=> ye .java se save hoga
+5. Compiler=> * it Checks the grammer of the Source Code.
+              * After Successful compilation it converts SC from HLL into Binary Format.
+              * this is .exe file 
+              *Native Code/executable code/ object Code..  This all .exe file
+              * it contains SC(Source code)  in Binary Formate.

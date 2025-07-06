@@ -5,9 +5,30 @@
     a. High level Programming Lang :- Human Readable
     b. Low Level [Machine Level Lang] :- Binary Formate.
 
-4. A  Code is  Written by devloper is called -> Source Code = High level language=> ye .java se save hoga
+     ************************************* THIS  IS FOR C++ MACHINE DEPENDENT CODE ******************************************
+4. A  Code is  Written by devloper is called -> Source Code = High level language=> ye .java/.cpp se save hoga
 5. Compiler=> * it Checks the grammer of the Source Code.
-              * After Successful compilation it converts SC from HLL into Binary Format.
+              * After Successful compilation it converts SC from High Level Lanuage into Binary Format.
               * this is .exe file 
               *Native Code/executable code/ object Code..  This all .exe file
               * it contains SC(Source code)  in Binary Formate.
+
+After compile .cpp file we can't share .exe file to other device ====> This Called Platform Dependent.
+
+
+
+
+
+************************************ Java Compiler ***************************************************
+
+    * it check the grammer of the Source Code .java file
+    * After the Sucessfull Compilation it convert Sc from HLL into BYTE CODE.
+    * Byte code Java understabdable Formate.
+
+    * java Compiler .class file => Byte code banayega ,
+                                                        But this Byte code not understandable by our Computer so introdue JIT compiler
+convert byte code into Binary Formate,
+
+
+That .class file makes Java  platform indepandent
+                                                    

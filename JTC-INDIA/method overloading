@@ -1,0 +1,23 @@
+class Calculator {
+    void Area(int side) {
+        System.out.println("Area of Square = " + (side * side));
+    }
+
+    void Area(int length, int width) {
+        System.out.println("Area of Rectangle = " + (length * width));
+    }
+
+    void Area(double r) {
+        System.out.println("Area of Circle = " + (3.14 * r * r));
+    }
+}
+
+public class oops {
+    public static void main(String arg[]) {
+        Calculator calc = new Calculator();
+
+        calc.Area(5);         // Square
+        calc.Area(5, 6);      // Rectangle
+        calc.Area(5.0);       // Circle
+    }
+}

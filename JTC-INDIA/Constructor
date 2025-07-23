@@ -1,0 +1,65 @@
+📘 Definition:
+Constructor ek special method hota hai jo object create karte waqt automatically call hota hai.
+
+🔑 Constructor ke features:
+| Property              | Description                        |
+| --------------------- | ---------------------------------- |
+| Name                  | Same as class name                 |
+| Return type           | ❌ No return type (not even `void`) |
+| Call hota kab hai?    | Jab object banta hai               |
+| Overloading possible? | ✔️ Yes                             |
+
+
+
+✅ Syntax:
+
+class Car {
+    Car() {  // Constructor
+        System.out.println("Car constructor called");
+    }
+}
+
+
+
+✅ Example with Constructor:
+
+class Student {
+    String name;
+
+    // Constructor
+    Student() {
+        name = "Unknown";
+        System.out.println("Constructor called");
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student(); // 👈 Constructor auto-called
+        s1.display();
+    }
+}
+
+
+EXAMPLE 2
+
+class A {
+    A() {
+        System.out.println("Bike is ready");
+    }
+
+    void bike() {
+        System.out.println("Riding bike");
+    }
+}
+
+class main {
+    public static void main(String[] arg) {
+        A a1 = new A();    // ✅ Constructor auto-called
+        a1.bike();         // ✅ Method call
+    }
+}

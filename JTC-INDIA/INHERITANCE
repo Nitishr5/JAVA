@@ -1,0 +1,83 @@
+// IT IS BASICALLY USE TO REUSABILITY OF THE  EXISTING CODES.
+
+🔔 Advantages of Inheritance:
+✅ Code reuse — bar bar likhne ki zarurat nahi
+✅ Clean and maintainable structure
+✅ Easy extension — naye features easily add ho jaate hain
+
+
+class Animal { //parent class
+    void eat() {
+        System.out.println("This animal eats food");
+    }
+}
+
+class Dog extends Animal {//child class
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();  // inherited method
+        d.bark(); // own method
+    }
+}
+
+
+
+| Type             | Description                                   | Example                  |
+| ---------------- | --------------------------------------------- | ------------------------ |
+| **Single**       | 1 parent → 1 child                            | `Animal → Dog`           |
+| **Multilevel**   | Child of child                                | `Animal → Dog → Puppy`   |
+| **Hierarchical** | 1 parent → multiple children                  | `Animal → Dog, Cat`      |
+| ❌ **Multiple**   | Not allowed directly in Java (use interfaces) | (Not supported directly) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Hierarchical Inheritance in Java
+
+
+
+class Animal {
+    void eat() {
+        System.out.println("Animal eats food");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+class Cat extends Animal {
+    void meow() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+
+        Cat c = new Cat();
+        c.eat();
+        c.meow();
+    }
+}
+

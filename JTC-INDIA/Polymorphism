@@ -1,0 +1,70 @@
+Polymorphism===> one form in behavior doffrent in diffrent case.
+
+type OF POLYMORPHISM==>
+1.COMPILE TIME POLYMORPHISM 
+2.RUN TIME POLYMORPHISM.
+
+
+
+
+✅ 2. Compile-Time Polymorphism (Method Overloading)
+Same method name, but different parameters (type or count)
+
+🔸 Code Example:
+
+class Calculator {
+    void add(int a, int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+
+    void add(int a, int b, int c) {
+        System.out.println("Sum: " + (a + b + c));
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Calculator c = new Calculator();
+        c.add(10, 20);        // 2 parameters
+        c.add(10, 20, 30);    // 3 parameters
+    }
+}
+
+
+
+Sum: 30  
+Sum: 60
+
+
+
+
+
+
+✅ 3. Runtime Polymorphism (Method Overriding)
+Same method name & parameters, but defined in both parent and child class
+
+📘 Real-Life:
+Parent class ka method override karta hai child class apne way me.
+
+🔸 Code Example:
+
+class Animal {
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Dog();  // reference parent ka, object child ka
+        a.sound();  // Dog ka method chalega (Runtime pe decide hota hai)
+    }
+}
+✅ Output:
+
+Dog barks

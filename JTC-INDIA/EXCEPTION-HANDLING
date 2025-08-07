@@ -1,0 +1,9 @@
+EXCEPTION==> An exception is Unexpected/unwanted/abnormal situation that occured at runtime called exception.
+
+
+Exeption Handling==> in  exception handling we  should have an alternae source through which we  can  handle the exception
+
+
+* to object orientation mechanism has provided the following techniques to work with.
+
+1. try  2. catch 3.throw 4. throws 5.Finally

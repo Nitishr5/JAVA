@@ -7,3 +7,23 @@ Exeption Handling==> in  exception handling we  should have an alternae source t
 * to object orientation mechanism has provided the following techniques to work with.
 
 1. try  2. catch 3.throw 4. throws 5.Finally
+
+
+
+
+
+
+class NPE{
+public static void main(String[] args){
+
+String str="nitish";
+//string str=null;          yha pr ye null ko conversion nhi ho pata to catch() block chalega.
+try{
+	System.out.println(str.toUpperCase());
+}
+catch(NullPointerException n)
+{
+	System.out.println("null cant't be casted");
+}
+}
+}
